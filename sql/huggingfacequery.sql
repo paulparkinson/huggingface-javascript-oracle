@@ -9,7 +9,7 @@ begin
    const oracledb = require("mle-js-oracledb");
    const payload = "{\"inputs\": \"The answer to the universe is [MASK].\"}" ;
    const modelId = 'bert-base-uncased';
-   const apiToken = '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';
+   const apiToken = 'hf_[yourhuggingfacetoken]';
    const headers = { 'Authorization': `Bearer ${apiToken}` };
    const API_URL = `https://api-inference.huggingface.co/models/${modelId}`;
    const answer = await fetch(API_URL, {
