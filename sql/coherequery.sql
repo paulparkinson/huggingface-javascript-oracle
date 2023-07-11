@@ -1,4 +1,3 @@
-SET SERVEROUTPUT ON
 create or replace mle module cohere_module
 language javascript as
 
